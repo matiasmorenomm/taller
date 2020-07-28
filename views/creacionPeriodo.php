@@ -80,6 +80,13 @@
     </div>
   </div>
 
+  <!-- 
+
+  En este archivo JS es donde se encuentra a la escucha del submit para enviar 
+  los datos al archivo correspondiente de la carpeta routes
+  para este archivo validar cual es la accion a realizar y hacia donde se debe dirigir
+  
+   -->
   <script src="./validaciones/periodo.js"></script>
 
   <!-- jQuery -->
