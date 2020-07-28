@@ -41,6 +41,14 @@ class Periodo extends Model
   protected function getPeriodos()
   {
     $sql = Model::ejecutar_consulta_simple("SELECT * FROM periodo");
+    $sql->execute();
+
+    return $sql;
+  }
+
+  protected function getPeriodo() {
+    $sql = Model::ejecutar_consulta_simple("SELECT * FROM periodo WHERE id == $this->id");
+    $sql->execute();
 
     return $sql;
   }
