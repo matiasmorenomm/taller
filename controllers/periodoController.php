@@ -48,7 +48,7 @@ class PeriodoController extends Periodo
     }
   }
   public function obtener_periodos() {
-
+     return "respuesta";
   }
 
   public function obtener_periodo() {

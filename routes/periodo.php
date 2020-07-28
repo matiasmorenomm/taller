@@ -39,7 +39,7 @@
         require_once "../controllers/periodoController.php";
 
         $ins = new PeriodoController();
-        $ins->obtener_periodos();
+        $res = $ins->obtener_periodos();
 
         echo json_encode($res);
       }
