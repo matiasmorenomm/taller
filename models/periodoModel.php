@@ -1,7 +1,6 @@
 <?php
 
-include "../Config/model.php";
-
+include "../config/model.php";
 class Periodo extends Model
 {
   public $id;
